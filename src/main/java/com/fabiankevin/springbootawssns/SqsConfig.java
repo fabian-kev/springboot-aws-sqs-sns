@@ -19,7 +19,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @Configuration
-public class SqsConfiguration {
+public class SqsConfig {
 
 
     @Value("${cloud.aws.credentials.access-key}")
