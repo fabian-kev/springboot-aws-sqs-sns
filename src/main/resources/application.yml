@@ -1,0 +1,27 @@
+#cloud:
+#  aws:
+#    credentials:
+#      accessKey: temp
+#      secretkey: temp
+#    region:
+#      auto: true
+#      static: eu-west-1
+
+
+cloud:
+  aws:
+    credentials:
+      access-key: temp
+      secret-key: temp
+    region:
+      auto: false
+      static: us-west-2
+    stack:
+      auto: false
+    end-point:
+      uri: http://localhost:4566
+
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
